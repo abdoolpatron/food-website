@@ -1,0 +1,78 @@
+#list ul {
+    display: inline;
+    text-decoration: none;
+    padding: 1px;
+    margin-right: 30px;
+}
+
+#list ul a {
+    color: #080;
+}
+
+#list {
+    text-align: left;
+    border-bottom: 1px solid green;
+    padding-bottom: 15px;
+}
+
+.navbar-brand {
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+#item-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 6px;
+}
+
+.new-item {
+    width: 400px;
+    height: 300px;
+    box-shadow: 3px 2px 3px 2px grey;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: green;
+}
+
+.cart-img {
+    margin: 25px;
+    border-radius: 10px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#quantity {
+    width: 45px;
+    height: 30px;
+}
+
+#quantity::-webkit-outer-spin-button, #quantity::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#text {
+    margin-top: 30%;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #080;
+    display: none;
+}
+
+.head {
+    color: #080;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+
+}

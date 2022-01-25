@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Food website</title>
+</head>
+<body>
+    <!---Z overlay-->
+    <div id="overlay"></div>
+    <div id="content">
+        <div id="menu-dropdown" class="menu-page">
+            <ul><a href="index.html">&nbsp;&nbsp; HOME</a><span id="menu-cancel">x</span></ul>
+            <ul><a href="#">DELIVERIES</a></ul>
+            <ul><a href="#">ABOUT US</a></ul>
+            <ul><a id="cart" href="cart.html">CART</a></ul>
+            <ul><a id="food-menu" role="button" href="#">FOOD MENU <i class="fa fa-caret-down" aria-hidden="true"></i></a></ul>
+            <ul><a class="sub-menu" href="#">Fast Foods</a></ul>
+            <ul><a class="sub-menu" href="#">Teas</a></ul>
+            <ul><a class="sub-menu" href="#">Sodas</a></ul>
+            <ul><a class="sub-menu" href="#">Vegetables</a></ul>
+            <ul><a class="sub-menu" href="#">Cereals</a></ul>
+            <ul><a class="sub-menu" href="#">Fruits</a></ul>
+            <ul><a class="sub-menu" href="#">Dairy</a></ul>
+            <ul><a class="sub-menu" href="#">Poultry and Meat</a></ul>
+            <ul><a class="sub-menu" href="#">Salad</a></ul>
+            <ul><a class="sub-menu" href="#">Meal Combos</a></ul>
+            <ul><a class="sub-menu" href="#">Noodles</a></ul>
+        </div>
+    <div class="grid" id="header">
+        <nav id="list">
+            <a class="navbar-brand" href="#"><i class="fa fa-cutlery" aria-hidden="true">CHOPPS</i></a>
+            <button id="menu" class="btn btn-success menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
+            <ul><a href="index.html">Home</a></ul>
+            <ul><a href="#">Deliveries</a></ul>
+            <ul><a href="#">About Us</a></ul>
+            <ul><a href="#">Free Offers</a></ul>
+            <ul><input type="search" name="search" id="searchbox" placeholder="Search"><i class="fa fa-search ml-2" id="search" aria-hidden="true"></i></ul>
+            <ul><a role="button" id="cart" href="cart.html"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a></ul>
+        </nav>
+        <div id="welcome-page">
+            <h4>Get our <b>newest</b> and <b>tastiest</b> foods by
+                <br>
+                joining the <b>Premium Customer Promo.</b>
+               <br>
+               Offer ends on <b>31<sup>st</sup> December 2022!</b>
+            </h4>
+            <br>
+            <button id="start" class="btn btn-success">Get Started</button>
+        </div>
+    </div>
+        <div id="flex">
+    <div class="grid" id="sidebar">
+        <ul><a href="#">Fast Foods</a></ul>
+        <ul><a href="#">Teas</a></ul>
+        <ul><a href="#">Sodas</a></ul>
+        <ul><a href="#">Vegetables</a></ul>
+        <ul><a href="#">Cereals</a></ul>
+        <ul><a href="#">Fruits</a></ul>
+        <ul><a href="#">Dairy</a></ul>
+        <ul><a href="#">Poultry and Meat</a></ul>
+        <ul><a href="#">Salad</a></ul>
+        <ul><a href="#">Meal Combos</a></ul>
+        <ul><a href="#">Noodles</a></ul>
+    </div>
+    <div class="grid" id="main">
+        <h3>PREMIUM CUSTOMER OFFERS</h3>
+        <div id="exclusive">
+            <div class="cards">
+                <p class="tag">Exclusive<p>
+                <img class="card-img-top" src="pictures/Fast_food_meal.jpg" alt="">
+                    <h5 class="item">Burger combo</h5>
+                    <p class="price"><span>$</span>69.99</p>
+                    <button class="add btn btn-success" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+            </div>
+            <div class="cards">
+                <p class="tag">Exclusive<p>
+                <img class="card-img-top" src="pictures/fish sticks.jpg" alt="">
+                    <h5 class="item">Premium Fish Sticks</h5>
+                    <p class="price"><span>$</span>29.99</p>
+                    <button class="add btn btn-success" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+            </div>
+            <div class="cards">
+                <p class="tag">Exclusive<p>
+                <img class="card-img-top" src="pictures/grilled fish fillet.jpg" alt="">
+                    <h5 class="item">Grilled Fish Fillet</h5>
+                    <p class="price"><span>$</span>59.99</p>
+                    <button class="add btn btn-success" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+            </div>
+            <div class="cards">
+                <p class="tag">Exclusive<p>
+                <img class="card-img-top" src="pictures/ultimateclubsalad.png" alt="">
+                    <h5 class="item">Ultimate Club Salad</h5>
+                    <p class="price"><span>$</span>79.00</p>
+                    <button class="add btn btn-success" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+            </div>
+            <div class="cards">
+                <p class="tag">Exclusive<p>
+                <img class="card-img-top" src="pictures/air-fryer-whole-chicken-8-500x500.jpg" alt="">
+                    <h5 class="item">Chicken Special</h5>
+                    <p class="price"><span>$</span>79.99</p>
+                    <button class="add btn btn-success" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div id="limited">
+            <div class="cards">
+                <p class="tag">Limited<p>
+                <img class="card-img-top" src="pictures/soda.jpg" alt="">
+                    <h5 class="item">One Soda Pack Combo</h5>
+                    <p class="price"><span>$</span>15.00</p>
+                    <button class="add btn btn-success" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+            </div>
+            <div class="cards">
+                <p class="tag">Limited<p>
+                <img class="card-img-top" src="pictures/macaroni and cheese.jpg" alt="">
+                    <h5 class="item">Macaroni & Cheese</h5>
+                    <p class="price"><span>$</span>29.39</p>
+                    <button class="add btn btn-success" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+            </div>
+            <div class="cards">
+                <p class="tag">Limited<p>
+                <img class="card-img-top" src="pictures/fast food combo.jpg" alt="">
+                    <h5 class="item">Fast Food Family Combo</h5>
+                    <p class="price"><span>$</span>99.99</p>
+                    <button class="add btn btn-success" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+            </div>
+            <div class="cards">
+                <p class="tag">Limited<p>
+                <img class="card-img-top" src="pictures/salmon-cucumber-sauce-recipe.jpg" alt="">
+                    <h5 class="item">Salmon Cucumber Sauce</h5>
+                    <p class="price"><span>$</span>49.00</p>
+                    <button class="add btn btn-success" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+            </div>
+            <div class="cards">
+                <p class="tag">Limited<p>
+                <img class="card-img-top" src="pictures/chicken combo.png" alt="">
+                    <h5 class="item">Chicken Super Combo</h5>
+                    <p class="price"><span>$</span>99.99</p>
+                    <button class="add btn btn-success" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div id="regular">
+            <div class="cards">
+                <p class="tag">Regular<p>
+                <img class="card-img-top" src="pictures/instant-noodles-with-vegetables-herbs-bowl-isolated-white_88281-4173.jpg" alt="">
+                    <h5 class="item">Instant Vegetable Noodles</h5>
+                    <p class="price"><span>$</span>19.99</p>
+                    <button class="add btn btn-success" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+            </div>
+            <div class="cards">
+                <p class="tag">Regular<p>
+                <img class="card-img-top" src="pictures/Fast_food_meal.jpg" alt="">
+                    <h5 class="item">Regular Fast Food</h5>
+                    <p class="price"><span>$</span>29.99</p>
+                    <button class="add btn btn-success" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+            </div>
+            <div class="cards">
+                <p class="tag">Regular<p>
+                <img class="card-img-top" src="pictures/chicken-chips-1.jpg" alt="">
+                    <h5 class="item">Chicken & Chips</h5>
+                    <p class="price"><span>$</span>29.29</p>
+                    <button class="add btn btn-success" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+            </div>
+            <div class="cards">
+                <p class="tag">Regular<p>
+                <img class="card-img-top" src="pictures/junk-food.jpg" alt="">
+                    <h5 class="item">Fast Food Combo</h5>
+                    <p class="price"><span>$</span>12.00</p>
+                    <button class="add btn btn-success" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+            </div>
+            <div class="cards">
+                <p class="tag">Regular<p>
+                <img class="card-img-top" src="pictures/fish stick.jpg" alt="">
+                    <h5 class="item">Regular Fish Sticks</h5>
+                    <p class="price"><span>$</span>15.99</p>
+                    <button class="add btn btn-success" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <footer class="grid">
+        <div class="container">
+        <ul>
+          <li class="footer-link"><a href="">About Us</a></li>
+          <li class="footer-link"><a href="">Contacts</a></li>
+          <li class="footer-link"><a href="">Employment</a></li>
+          <li class="footer-link"><a href="">Latest Updates</a></li>
+          <li class="footer-link"><a href="">Promotions</a></li>
+          <li class="footer-link"><a href="">Pre Orders</a></li>
+          <li class="footer-link"><a href="">Affiliate Marketing</a></li>
+          <li class="footer-link"><a href="">Advertisements</a></li>
+          <li class="footer-link"><a href="">Subscriptions</a></li>
+          <li class="footer-link"><a href="">Cooking Channels</a></li>
+          <li class="footer-link"><a href="">Trademarks</a></li>
+          <li class="footer-link"><a href="">Charity And Technical Services</a></li>
+        </ul>
+   
+        <div class="container social">
+          <button class="btn social btn-primary mr-5"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+          <button class="btn social btn-primary mr-5"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+          <button class="btn social btn-light mr-5"><i class="fa fa-instagram" aria-hidden="true"></i></button>
+          <button class="btn social btn-danger"><i class="fa fa-youtube" aria-hidden="true"></i></button>
+        </div>
+   
+        <p class="font-weight-light text-center text-light" style="margin-top: 60px;">Copyright&#169; CHOPPS, Inc. All rights reserved. Terms of Use | Privacy Policy</p>
+           <p class="font-weight-light text-center text-light">002-0543-4453</p>
+           <p class="font-weight-bold text-center text-light" style="margin-top: 10px;">An Abdulrahman Musa Production</p>
+       </div>
+    </footer>
+    </div>
+  <!---LOGIN BOX-->
+  <div id="loader"></div>
+    <div class="container" id="login">
+        <a role="button" id="cancel">x</a>
+        <span><i class="fa fa-user-circle" aria-hidden="true"></i><input type="text" placeholder="Username or Email" id="username"></span>
+        <br>
+        <span><i class="fa fa-key" aria-hidden="true"></i><input type="password" placeholder="Password" id="password"></span>
+        <br>
+        <div id="login-button">
+           <label for="checkbox"><input type="checkbox" name="" id="checkbox"> Remember me</label>
+            <button id="log" class="btn btn-success login pl-4 pr-4">LOGIN</button>
+        </div>
+        <br>
+        <div id="login-button">
+            <a href="">Forgot password?</a>
+        </div>
+        <br>
+        OR
+        <br>
+        <br>
+        <br>
+        <span id="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i><button class="btn facebook">LOGIN WITH FACEBOOK</button></span>
+        <br>
+        <span id="twitter"><i class="fa fa-twitter" aria-hidden="true"></i><button class="btn twitter">LOGIN WITH TWITTER</button></span>
+        <br>
+        <span id="google"><i class="fa fa-google" aria-hidden="true"></i><button class="btn google">LOGIN WITH GOOGLE</button></span>
+        <br>
+        <p>If you do not have an account, <a href="register.html">Register now</a></p>
+    </div>
+
+    <script src="food.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+/*FOR INDEX*/
+@media only screen and (max-width: 650px){
+    #content {
+        display: grid;
+        width: 600px;
+        text-align: center;
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #header {
+        width: 600px;
+        text-align: center;
+    }
+
+    #header ul {
+        display: none;
+        text-align: left;
+    }
+
+
+    .menu {
+        position: relative;
+        left: 30%;
+        visibility: visible;
+    }
+
+    .menu-page {
+        padding: 4px;
+        width: 600px;
+        height: 210px;
+        background-color: #e0e0e0;
+        position: fixed;
+        z-index: 1;
+        overflow: hidden;
+        transition: all 0.2s linear;
+        display: none;
+    }
+
+    .menu-page ul a {
+        vertical-align: middle;
+        padding: 1px;
+        color: #080;
+    }
+
+    .menu-page ul a.sub-menu {
+        font-size: 13px;
+        padding: 0;
+        margin: 0;
+    }
+
+    #menu-cancel {
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        left: 35%;
+        color: #080;
+        cursor: pointer;
+    }
+
+
+    #welcome-page {
+        width: 400px;
+        text-align: center;
+        left: 0;
+        margin: auto;
+    }
+
+    #sidebar {
+        display: none;
+    }
+
+    #main {
+        width: 600px;
+        margin: 15px;
+        padding: 0;
+        text-align: center;
+    }
+
+    #main #exclusive, #limited, #regular{
+        display: grid;
+        grid-template-columns: repeat(3, 214px);
+        grid-gap: 0;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #login {
+        margin: auto;
+        width: 500px;
+        text-align: center;
+        left: 7%;
+        top: 5%;
+        padding: 0;
+    }
+
+    #username, #password, #phone-number, #email, .btn.facebook, .btn.twitter, .btn.google {
+        width: 150px;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    #login .fa {
+        padding: 7px;
+    }
+
+    #cancel {
+        bottom: 0;
+        right: 1%;
+    }
+
+    #item-area {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #searchbox, .fa.fa-search {
+        display: none;
+    }
+}
