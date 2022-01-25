@@ -117,4 +117,8 @@
     #searchbox, .fa.fa-search {
         display: none;
     }
+
+    #footer {
+        width: 650px;
+    }
 }
